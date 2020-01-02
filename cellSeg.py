@@ -12,8 +12,7 @@ import pandas as pd
 import shutil
 
 df = pd.read_csv('data_list.csv', index_col=0)
-# dask_tmp = '/scratch/weiz/dask-worker-space'
-dask_tmp = '/nrs/ahrens/Ziqiang/dask-worker-space'
+dask_tmp = '/scratch/weiz/dask-worker-space'
 memory_limit = 0 # unlimited
 down_sample_registration = 3
 baseline_percentile = 20
@@ -41,7 +40,7 @@ for ind, row in df.iterrows():
     cameraNoiseMat = row['cameraNoiseMat']
     is_singlePlane = row['singlePlane']
     mask_max = row['mask']
-    savetmp = save_root
+    # savetmp = '/scratch/weiz/'
 
     if row['Processed']:
         continue
@@ -56,7 +55,7 @@ for ind, row in df.iterrows():
     print('========================')
     print('Preprocessing')
     if not os.path.exists(savetmp+'/motion_corrected_data_chunks_%03d.zarr'%(num_t_chunks-1)):
-        preprocessing(dir_root, savetmp, cameraNoiseMat=cameraNoiseMat, nsplit=nsplit, \
+        preprocessing(dir_root, [savetmp, save_root], cameraNoiseMat=cameraNoiseMat, nsplit=nsplit, \
                       num_t_chunks=num_t_chunks, dask_tmp=dask_tmp, memory_limit=memory_limit, \
                       is_singlePlane=is_singlePlane, is_bz2=False, \
                       down_sample_registration=down_sample_registration)
