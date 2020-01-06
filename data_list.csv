@@ -38,8 +38,10 @@
 36,/nrs/ahrens/Rongwei/20191112/1_1_TS5_MO3_20191112_154823/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS5_MO3_20191112_154823/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
 37,/nrs/ahrens/Rongwei/20191112/1_1_TS6_MO4_20191112_160749/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS6_MO4_20191112_160749/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
 38,/nrs/ahrens/Rongwei/20191112/1_1_TS7_MO5_20191112_162510/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS7_MO5_20191112_162510/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
-40,/nrs/ahrens/Rongwei/20191112/1_1_TS1_rightLC_20191112_143340/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS1_rightLC_20191112_143340/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
-41,/nrs/ahrens/Rongwei/20191112/1_1_TS8_MO6_20191112_164302/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS8_MO6_20191112_164302/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
-42,/nrs/ahrens/Rongwei/20191118/1_1_TS1_20191118_140036/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191118/1_1_TS1_20191118_140036/,FALSE,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
-
-
+39,/nrs/ahrens/Rongwei/20191112/1_1_TS1_rightLC_20191112_143340/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS1_rightLC_20191112_143340/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
+40,/nrs/ahrens/Rongwei/20191112/1_1_TS8_MO6_20191112_164302/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS8_MO6_20191112_164302/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
+41,/nrs/ahrens/Rongwei/20191118/1_1_TS1_20191118_140036/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191118/1_1_TS1_20191118_140036/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,False,8000,3,40,False,Rongwei
+42,/nrs/ahrens/Rongwei/20191118/1_1_TS2_20191118_155757/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191118/1_1_TS2_20191118_155757/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,False,8000,3,40,False,Rongwei
+43,/nrs/ahrens/Rongwei/20191118/1_1_TS3_plane10_20191118_170204/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191118/1_1_TS3_plane10_20191118_170204/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
+44,/nrs/ahrens/Rongwei/20191118/1_1_TS4_plane12_20191118_171828/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191118/1_1_TS4_plane12_20191118_171828/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
+45,/nrs/ahrens/Rongwei/20191118/1_1_TS5_plane8_20191118_172956/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191118/1_1_TS5_plane8_20191118_172956/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
