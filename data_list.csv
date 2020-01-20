@@ -1,5 +1,4 @@
 ,dat_dir,save_dir,Processed,cameraNoiseMat,singlePlane,baseline_window,num_t_chunks,mask,dFF,Project
-42,/nrs/ahrens/Rongwei/20191112/1_1_TS6_MO4_20191112_160749/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS6_MO4_20191112_160749/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,10,40,False,Rongwei
 43,/nrs/ahrens/Rongwei/20191112/1_1_TS7_MO5_20191112_162510/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS7_MO5_20191112_162510/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,10,40,False,Rongwei
 44,/nrs/ahrens/Rongwei/20191112/1_1_TS1_rightLC_20191112_143340/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS1_rightLC_20191112_143340/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,10,40,False,Rongwei
 45,/nrs/ahrens/Rongwei/20191112/1_1_TS8_MO6_20191112_164302/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20191112/1_1_TS8_MO6_20191112_164302/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,10,40,False,Rongwei
