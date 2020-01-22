@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import pandas as pd
 import shutil
-from cellSegProc import cellSegProc
+from cellSegFuc import cellSegProc
 from fish_proc.utils.fileio import make_tarfile, chmod
 from time import sleep
 dask_tmp = '/scratch/weiz/dask-worker-space'
@@ -47,14 +47,15 @@ def process_zero_row():
         sleep(3600) # sleep 1 hours before another around of processing
         return None
     if row['Processed']:
-        continue
+        return None
+    
+    save_root = row['save_dir']
 
     # add holding file
     f = open(savetmp+'processing.tmp', "w")
-    f.write(f'Data at index {ind} is processing at {save_root}')
+    f.write(f'Data at index 0 is processing at {save_root}')
     f.close()
     
-    save_root = row['save_dir']
     cellSegProc(row, savetmp=savetmp, \
                 dask_tmp=dask_tmp, \
                 memory_limit=memory_limit, \
@@ -76,7 +77,7 @@ def process_zero_row():
     chmod(save_root, mode='0775')
     
     f = open("curr.out", "w")
-    f.write(f'Data at index {ind} is done processing at {save_root}')
+    f.write(f'Data at index 0 is done processing at {save_root}')
     f.close()
     # remove holding file
     os.remove(savetmp+'processing.tmp')
@@ -85,6 +86,7 @@ def process_zero_row():
     os.system('git add curr.out')
     os.system("git commit -m 'update processing progress'");
     os.system("git push");
+    return None
     
     
 if __name__ == "__main__":
