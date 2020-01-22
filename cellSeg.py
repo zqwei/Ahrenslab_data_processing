@@ -7,6 +7,7 @@ import pandas as pd
 import shutil
 from cellSegFuc import cellSegProc
 from fish_proc.utils.fileio import make_tarfile, chmod
+from glob import glob
 from time import sleep
 dask_tmp = '/scratch/weiz/dask-worker-space'
 memory_limit = 0 # unlimited
@@ -65,7 +66,6 @@ def process_zero_row():
     # folder operations
     for nfolder in glob(savetmp+'/*.zarr/'):
         shutil.rmtree(nfolder)
-    shutil.rmtree(f'{savetmp}/detrend_data.zarr')
     make_tarfile(save_root+'sup_demix_rlt.tar.gz', savetmp+'sup_demix_rlt')        
     shutil.move(f'{savetmp}/motion_fix_.h5', f'{save_root}/motion_fix_.h5')
     shutil.move(f'{savetmp}/trans_affs.npy', f'{save_root}/trans_affs.npy')
