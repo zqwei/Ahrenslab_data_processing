@@ -75,17 +75,16 @@ def process_zero_row():
     shutil.rmtree(savetmp+'sup_demix_rlt')
     # change mode in case if the file is not accessible
     chmod(save_root, mode='0775')
-    
-    f = open("curr.out", "w")
-    f.write(f'Data at index 0 is done processing at {save_root}')
-    f.close()
     # remove holding file
     os.remove(savetmp+'processing.tmp')
     
-    os.system("git pull");
-    os.system('git add curr.out')
-    os.system("git commit -m 'update processing progress'");
-    os.system("git push");
+#     f = open("curr.out", "w")
+#     f.write(f'Data at index 0 is done processing at {save_root}')
+#     f.close()    
+#     os.system("git pull");
+#     os.system('git add curr.out')
+#     os.system("git commit -m 'update processing progress'");
+#     os.system("git push");
     return None
     
     
