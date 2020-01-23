@@ -5,9 +5,10 @@ import os, sys
 import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
-import fish_proc.wholeBrainDask.cellProcessing_single_WS as fwc
 import dask.array as da
 import pandas as pd
+from cellSegFuc import fwc
+
 df = pd.read_csv('data_list.csv')
 dask_tmp = '/nrs/ahrens/Ziqiang/dask-worker-space'
 memory_limit = 0 # unlimited
