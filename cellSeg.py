@@ -18,10 +18,10 @@ savetmp = '/scratch/weiz/'
 
 
 def update_processing_table():
-    df = pd.read_csv('data_list.csv', index_col=0)
-    df_ = pd.read_csv('finshed_data_list.csv', index_col=0)
     # get new processing list
     os.system("git pull");
+    df = pd.read_csv('data_list.csv', index_col=0)
+    df_ = pd.read_csv('finshed_data_list.csv', index_col=0)
     # update the processing file first
     for ind, row in df.iterrows():
         save_root = row['save_dir']
