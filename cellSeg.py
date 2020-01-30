@@ -78,13 +78,6 @@ def process_zero_row():
     # remove holding file
     os.remove(savetmp+'processing.tmp')
     
-#     f = open("curr.out", "w")
-#     f.write(f'Data at index 0 is done processing at {save_root}')
-#     f.close()    
-#     os.system("git pull");
-#     os.system('git add curr.out')
-#     os.system("git commit -m 'update processing progress'");
-#     os.system("git push");
     return None
     
     
