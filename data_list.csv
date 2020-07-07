@@ -1,2 +1,1 @@
 ,dat_dir,save_dir,Processed,cameraNoiseMat,singlePlane,baseline_window,num_t_chunks,mask,dFF,Project
-0,/nrs/ahrens/Rongwei/20200628-2/8dpf_huc_h2b_gc7g_gad1b_IRI-TS16-plane18_20200628_153006/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20200628/8dpf_huc_h2b_gc7g_gad1b_IRI-TS16-plane18_20200628_153006/,False,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20191218,True,20000,3,40,False,Rongwei
