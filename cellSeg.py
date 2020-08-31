@@ -54,7 +54,7 @@ def process_zero_row():
 
     # add holding file
     f = open(savetmp+'processing.tmp', "w")
-    f.write(f'Data at index 0 is processing at {save_root}')
+    f.write(f'Data at index 0 is processing at {save_root} \n')
     f.close()
     
     cellSegProc(row, savetmp=savetmp, \
