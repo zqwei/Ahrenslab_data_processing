@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import dask.array as da
 import pandas as pd
-from cellSegFuc import fwc
+import fish_proc.wholeBrainDask.cellProcessing_single_WS as fwc
 
 df = pd.read_csv('data_list.csv')
 dask_tmp = '/nrs/ahrens/Ziqiang/dask-worker-space'
