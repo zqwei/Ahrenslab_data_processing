@@ -51,9 +51,11 @@ def process_zero_row():
         return None
     
     save_root = row['save_dir']
+    dat_root = row['dat_dir']
 
     # add holding file
     f = open(savetmp+'processing.tmp', "w")
+    f.write(f'Data at index 0 is obtaining from {dat_root} \n')
     f.write(f'Data at index 0 is processing at {save_root} \n')
     f.close()
     
