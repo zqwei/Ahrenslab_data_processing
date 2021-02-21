@@ -8,7 +8,7 @@ from shutil import rmtree
 save_tmp='/scratch/weiz/'
 
 
-while True
+while True:
     try:
         subprocess.run(['./cellSeg.py'], shell=False, check=True)
     except subprocess.CalledProcessError as e:
