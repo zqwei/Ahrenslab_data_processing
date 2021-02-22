@@ -30,6 +30,7 @@ while True:
             # check if the last denoised_data intermediate file succeeds
             if len(glob(denoise_list[-1]+'/*'))==0:
                 rmtree(denoise_list[-1])
-        os.remove(save_tmp+'processing.tmp')
+        if os.path.exists(save_tmp+'processing.tmp'):
+            os.remove(save_tmp+'processing.tmp')
         
             
