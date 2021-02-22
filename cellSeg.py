@@ -52,6 +52,7 @@ def process_zero_row():
     
     save_root = row['save_dir']
     dat_root = row['dat_dir']
+    is_singlePlane = row['singlePlane']
 
     # add holding file
     f = open(savetmp+'processing.tmp', "w")
@@ -59,11 +60,18 @@ def process_zero_row():
     f.write(f'Data at index 0 is processing at {save_root} \n')
     f.close()
     
+    if is_singlePlane:
+        down_sample_registration = 50
+        dt = 10
+    else:
+        down_sample_registration = 3
+        dt = 3
+    
     cellSegProc(row, savetmp=savetmp, \
                 dask_tmp=dask_tmp, \
                 memory_limit=memory_limit, \
                 baseline_percentile=baseline_percentile, \
-                down_sample_registration=down_sample_registration)
+                down_sample_registration=down_sample_registration, dt=dt)
     
     # folder operations
     for nfolder in glob(savetmp+'/*.zarr/'):
