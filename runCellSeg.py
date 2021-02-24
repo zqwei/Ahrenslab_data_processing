@@ -10,6 +10,8 @@ save_tmp='/scratch/weiz/'
 
 while True:
     try:
+        if os.path.exists(save_tmp+'processing.tmp'):
+            os.remove(save_tmp+'processing.tmp')
         subprocess.run(['./cellSeg.py'], shell=False, check=True)
     except subprocess.CalledProcessError as e:
         print(e.output)
