@@ -1,2 +1,1 @@
 ,dat_dir,save_dir,Processed,cameraNoiseMat,singlePlane,baseline_window,num_t_chunks,mask,dFF,Project
-0,/nearline/ahrens/rongwei/gcamp_comparison/20201011/fish01/fish01-7dpf-huc-h2b-gc8f-ZTS3-flash-30Hz_20201011_170016/raw/,/nrs/ahrens/Ziqiang/Fish_Datasets/ZhangR/20201011/fish01-7dpf-huc-h2b-gc8f-ZTS3-flash-30Hz_20201011_170016,FALSE,/nrs/ahrens/ahrenslab/Ziqiang/gainMat/gainMat20180208,FALSE,2000,6,40,FALSE,Rongwei
